@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ViewModels\BeginPracticeClass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\EndPracticeClass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\PracticeClass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\TheoryClass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\TopicsClass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\TotalBeginPracticeClass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewModels\BeginPracticeClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewModels\EndPracticeClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewModels\PracticeClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewModels\TheoryClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewModels\TopicsClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewModels\TotalBeginPracticeClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

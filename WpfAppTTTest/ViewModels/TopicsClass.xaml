@@ -1,0 +1,35 @@
+﻿<Page x:Class="WpfAppTTTest.ViewModels.TopicsClass"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfAppTTTest.ViewModels"
+      mc:Ignorable="d" 
+           d:DesignHeight="438" d:DesignWidth="918"
+      Title="2 класс">
+
+    <Grid x:Name="ThisGrid" Tag="" Loaded="ThisGrid_Loaded">
+        <!-- <Frame x:Name="towthemalistframe" Content="" HorizontalAlignment="Left" Height="485" VerticalAlignment="Top" Width="918" Margin="10,-37,0,0"/>-->
+        <Button x:Name="Topic1"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="42,17,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic1_Click"/>
+        <Button x:Name="Topic2"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="42,88,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic2_Click"/>
+        <Button x:Name="Topic3"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="42,159,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic3_Click"/>
+        <Button x:Name="Topic4"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="42,230,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic4_Click"/>
+        <Button x:Name="Topic5"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="42,301,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic5_Click"/>
+        <Button x:Name="Topic6"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="256,17,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic6_Click"/>
+        <Button x:Name="Topic7"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="256,88,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic7_Click"/>
+        <Button x:Name="Topic8"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="256,159,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic8_Click"/>
+        <Button x:Name="Topic9"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="256,230,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic9_Click"/>
+        <Button x:Name="Topic10"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="256,301,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic10_Click"/>
+        <Button x:Name="Topic11"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="466,17,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic11_Click"/>
+        <Button x:Name="Topic12"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="466,88,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic12_Click"/>
+        <Button x:Name="Topic13"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="466,159,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic13_Click"/>
+        <Button x:Name="Topic14"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="466,230,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic14_Click"/>
+        <Button x:Name="Topic15"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="466,301,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic15_Click"/>
+        <Button x:Name="Topic16"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="680,17,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic16_Click"/>
+        <Button x:Name="Topic17"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="680,88,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic17_Click"/>
+        <Button x:Name="Topic18"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="680,159,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic18_Click"/>
+        <Button x:Name="Topic19"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="680,230,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic19_Click"/>
+        <Button x:Name="Topic20"  Content="Тема" HorizontalAlignment="Left" Height="40" Margin="680,301,0,0" VerticalAlignment="Top" Width="190" Background="#F2FFFFFF" BorderBrush="White" FontFamily="Corbel Light" FontSize="18" Click="Topic20_Click"/>
+        <Button x:Name="FinalTestButton"  Content="Підсумковий тест" HorizontalAlignment="Left" Height="40" Margin="279,365,0,0" VerticalAlignment="Top" Width="359" Background="#F2409527" BorderBrush="{x:Null}" FontFamily="Corbel Light" FontSize="22" Click="FinalTestButton_Click"/>
+    </Grid>
+</Page>

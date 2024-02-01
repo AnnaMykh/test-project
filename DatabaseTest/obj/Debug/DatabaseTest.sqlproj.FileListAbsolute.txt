@@ -1,0 +1,6 @@
+C:\Users\Asus\source\repos\WpfAppTTTest\DatabaseTest\bin\Debug\DatabaseTest.dacpac
+C:\Users\Asus\source\repos\WpfAppTTTest\DatabaseTest\bin\Debug\DatabaseTest.dll
+C:\Users\Asus\source\repos\WpfAppTTTest\DatabaseTest\bin\Debug\DatabaseTest.pdb
+C:\Users\Asus\source\repos\WpfAppTTTest\DatabaseTest\obj\Debug\DatabaseTest.sqlproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\WpfAppTTTest\DatabaseTest\obj\Debug\DatabaseTest.dll
+C:\Users\Asus\source\repos\WpfAppTTTest\DatabaseTest\obj\Debug\DatabaseTest.pdb

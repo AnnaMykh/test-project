@@ -1,0 +1,243 @@
+﻿\document
+{
+  \styles
+  {
+    Normal
+    {
+      Font
+      {
+        Name = "Verdana"
+      }
+    }
+
+    Heading1
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level1
+      }
+    }
+
+    Heading2
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level2
+      }
+    }
+
+    Heading3
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level3
+      }
+    }
+
+    Heading4
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level4
+      }
+    }
+
+    Heading5
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level5
+      }
+    }
+
+    Heading6
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level6
+      }
+    }
+
+    Heading7
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level7
+      }
+    }
+
+    Heading8
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level8
+      }
+    }
+
+    Heading9
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level9
+      }
+    }
+
+    Header
+    {
+      ParagraphFormat
+      {
+        TabStops +=
+        {
+          Position = "16cm"
+          Alignment = Right
+        }
+      }
+    }
+
+    Footer
+    {
+      ParagraphFormat
+      {
+        TabStops +=
+        {
+          Position = "8cm"
+          Alignment = Center
+        }
+      }
+    }
+
+    InvalidStyleName
+    {
+      Font
+      {
+        Bold = true
+        Underline = Dash
+        Color = Lime
+      }
+    }
+
+    Table : Normal
+    {
+      Font
+      {
+        Name = "Times New Roman"
+        Size = 9
+      }
+    }
+
+    Reference : Normal
+    {
+      ParagraphFormat
+      {
+        SpaceBefore = "5mm"
+        SpaceAfter = "5mm"
+        TabStops +=
+        {
+          Position = "16cm"
+          Alignment = Right
+        }
+      }
+    }
+  }
+  \section
+  {
+    \paragraph
+    [
+      Style = "Reference"
+      Format
+      {
+        SpaceBefore = "8cm"
+      }
+    ]
+    {
+      \bold{Результат користувача: енгш}\tab Дата формування звіту: \field(Date)[Format = "dd.MM.yyyy"]
+    }
+    \table
+    [
+      Style = "Table"
+      Borders
+      {
+        Width = 0.25
+        Left
+        {
+          Width = 0.5
+        }
+        Right
+        {
+          Width = 0.5
+        }
+      }
+    ]
+    {
+      \columns
+      {
+        \column
+        [
+          Format
+          {
+            Alignment = Left
+          }
+          Width = "8cm"
+        ]
+        \column
+        [
+          Format
+          {
+            Alignment = Left
+          }
+          Width = "8cm"
+        ]
+      }
+      \rows
+      [
+        LeftIndent = 0
+      ]
+      {
+        \row
+        {
+          \cell
+          {
+            Клас
+          }
+          \cell
+          {
+            2
+          }
+        }
+        \row
+        {
+          \cell
+          {
+            Тема
+          }
+          \cell
+          {
+            1
+          }
+        }
+        \row
+        {
+          \cell
+          {
+            Кількість правильних відповідей
+          }
+          \cell
+          {
+            5
+          }
+        }
+        \row
+        {
+          \cell
+          {
+            Дата/час
+          }
+          \cell
+          {
+            01/02/2024 17:54:09
+          }
+        }
+      }
+    }
+  }
+}
